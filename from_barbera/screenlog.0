@@ -1,0 +1,32 @@
+mv  ls
+Huang19_SRR2015504_1.fastq  Huang19_SRR2015520_1.fastq
+Huang19_SRR2015504_2.fastq  Huang19_SRR2015520_2.fastq
+Huang19_SRR2015505_1.fastq  Huang19_SRR2016558_1.fastq
+Huang19_SRR2015505_2.fastq  Huang19_SRR2016558_2.fastq
+Huang19_SRR2015506_1.fastq  Huang19_SRR3084977_1.fastq
+Huang19_SRR2015506_2.fastq  Huang19_SRR3084977_2.fastq
+Huang19_SRR2015507_1.fastq  Huang19_SRR3133888_1.fastq
+Huang19_SRR2015507_2.fastq  Huang19_SRR3133888_2.fastq
+Huang19_SRR2015509_1.fastq  Huang19_SRR3133889_1.fastq
+Huang19_SRR2015509_2.fastq  Huang19_SRR3133889_2.fastq
+Huang19_SRR2015510_1.fastq  Huang19_SRR3133890_1.fastq
+Huang19_SRR2015510_2.fastq  Huang19_SRR3133890_2.fastq
+Huang19_SRR2015511_1.fastq  Huang19_SRR3133891_1.fastq
+Huang19_SRR2015511_2.fastq  Huang19_SRR3133891_2.fastq
+Huang19_SRR2015512_1.fastq  keep
+Huang19_SRR2015512_2.fastq  merge.err
+Huang19_SRR2015513_1.fastq  merge.out
+Huang19_SRR2015513_2.fastq  mothur.1568707637.logfile
+Huang19_SRR2015514_1.fastq  nohup.out
+Huang19_SRR2015514_2.fastq  samples.contigs.groups
+Huang19_SRR2015515_1.fastq  samples.contigs.report
+Huang19_SRR2015515_2.fastq  samples.scrap.contigs.fasta
+Huang19_SRR2015517_1.fastq  samples.scrap.contigs.qual
+Huang19_SRR2015517_2.fastq  samples.trim.contigs.fasta
+Huang19_SRR2015518_1.fastq  samples.trim.contigs.qual
+Huang19_SRR2015518_2.fastq  samples.trim.contigs.summary
+Huang19_SRR2015519_1.fastq  samples.txt
+Huang19_SRR2015519_2.fastq  screenlog.0
+sbjohnson@barbera:/share/amishalab-backedup/PoretPeterson/mothur/sam_mothur_test$$ mv screenlog.0 ~/
+mv: cannot stat '/home/sbjohnson/screenlog.0': Permission denied
+sbjohnson@barbera:/share/amishalab-backedup/PoretPeterson/mothur/sam_mothur_test$$ mv 
