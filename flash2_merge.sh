@@ -4,7 +4,7 @@
 # 	directory.
 
 # Deps: flash2
-# NOTE: RUN AFTER: --- [fastq-dump script??]
+# NOTE: RUN AFTER: --- srr_munch.sh
 #	RUN BEFORE: -- q2a_reformat.sh
 
 shopt -s nullglob
