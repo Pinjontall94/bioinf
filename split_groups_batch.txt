@@ -1,0 +1,2 @@
+summary.seqs(fasta=merged.trimmed.fasta, processors=20)
+split.groups(fasta=merged.trimmed.fasta, group=merge.pick.groups)

@@ -1,0 +1,3 @@
+screen.seqs(fasta=merged.pick.fasta, group=merged.pick.groups, minlength=200, maxlength=300, maxambig=0, maxhomop=8)
+summary.seqs(fasta=current, processors=20)
+count.groups(group=current)
