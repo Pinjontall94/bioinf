@@ -46,9 +46,9 @@ for arbitrary sequences is a high priority going forward!)
 	-- (Relevant Info): ~/work/usda/docs/ASD_metaanal_screening_fasta.txt
 
 11. Screen Sequences with mothur
-	-- script: TBD
+	-- script: ~/code/shell/bioinf/screening_batch.txt
 	-- (Relevant Info): ~/work/usda/docs/ASD_metaanal_screening_fasta.txt
  
 12. Screen for PhiX (as needed)
-	-- script: TBD
+	-- script: ~/code/shell/bioinf/phix.sh
 	-- (Relevant Info): ~/work/usda/docs/ASD_metaanal_screening_fasta.txt
