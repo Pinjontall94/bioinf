@@ -7,7 +7,7 @@ FPRIMER="GTGCCAGC(A|C)GCCGCGGTAA"
 RUNTABLE=SraRunTable.csv
 
 if [ -f *.fastq ] && [ ! -d 16S ]; then
-	mkdir 16S 
+	mkdir 16S
 	if [ -f SraRunTable.csv ]; then
 		awk -F "," '/16S/ { print $1 }' $RUNTABLE > 16S_list.txt.temp
 #		awk -F "," '/16S/ { print $1 }' $RUNTABLE > 16S_list.txt.temp
@@ -16,11 +16,11 @@ if [ -f *.fastq ] && [ ! -d 16S ]; then
 			mv $line 16S
 		done < 16S_list.txt.temp
 		rm 16S_list.txt.temp
-	else	
+	else
 		echo "No SraRunTable.csv found! Try grep -B 1 -E \"<FORWARD PRIMER>\" on fastqs"
 		echo "\nExample output:"
 		grep -EB 1 $FPRIMER
-		# Put grep tool for generating 16S list here 
+		# Put grep tool for generating 16S list here
 		# 	(Note: Add both "FPRIMER" __and__ "^FPRIMER" versions, and separate
 		# 	their results in different directories)
 #	        head -n 2 *.fastq \
