@@ -9,4 +9,5 @@ echo ${1:-$(cat /dev/stdin)} \
 | tr WSMKRY SWKMYR \
 | tr BDHV VHDB \
 | tr '[]' '][' \
+| tr '()' ')(' \
 | rev
